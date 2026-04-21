@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 60 12% 97%;
+  --foreground: 138 14% 14%;
+  --card: 0 0% 100%;
+  --card-foreground: 138 14% 14%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 138 14% 14%;
+  --primary: 123 45% 34%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 122 39% 57%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 36 29% 91%;
+  --muted-foreground: 138 8% 32%;
+  --accent: 122 39% 57%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 138 14% 88%;
+  --input: 138 14% 88%;
+  --ring: 123 45% 34%;
+  --radius: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F8F6;
+  color: #1F2922;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+/* Selection */
+::selection {
+  background: #2e7d32;
+  color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0EBE1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #66bb6a;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2e7d32;
+}
+
+/* Utility: subtle grain */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(46, 125, 50, 0.08) 1px, transparent 1px);
+  background-size: 3px 3px;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+/* Hero subtle ken-burns */
+@keyframes kenburns {
+  0% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1.12);
+  }
+}
+
+.kenburns {
+  animation: kenburns 18s ease-in-out infinite alternate;
+}
+
+[data-debug-wrapper="true"] {
+  display: contents !important;
 }
