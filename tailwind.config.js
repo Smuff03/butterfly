@@ -13,7 +13,9 @@ module.exports = {
           secondary: "#81c784",    // Light Green
           ink: "#1a1a1a",         // Dark Text/Background
           ink2: "#4a4a4a",        // Lighter Text
-          whatsapp: "#25D366",    // WhatsApp Green
+          whatsapp: "#25D366",  // WhatsApp Green
+          surface: "#F9F8F6",    // Section Background
+          surfaceAlt: "#EFEDE7", // Card Background   
         },
         // Mapping the shadcn/emergent variables
         border: "hsl(var(--border))",
