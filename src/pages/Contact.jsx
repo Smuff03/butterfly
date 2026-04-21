@@ -37,10 +37,16 @@ export default function Contact() {
         }
     };
 
-    const mapSrc =
-        "https://www.google.com/maps?q=" +
-        encodeURIComponent(SITE.mapQuery) +
-        "&output=embed";
+    const mapSrc = `https://maps.google.com/maps?q=${encodeURIComponent(SITE.mapQuery)}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+    <iframe
+        title="Butterfly Lawn location"
+        src={mapSrc}
+        width="100%"
+        height="300"
+        style={{ border: 0 }}
+        loading="lazy"
+        allowFullScreen
+    />
 
     return (
         <PageShell title="Contact">

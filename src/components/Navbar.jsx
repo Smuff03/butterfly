@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { Menu, X, Leaf } from "lucide-react";
+import { Menu, X } from "lucide-react"; // Removed Leaf since it's no longer used
 import { motion, AnimatePresence } from "framer-motion";
 import { SITE, waLink } from "../lib/site";
 
@@ -36,18 +36,15 @@ export default function Navbar() {
                 }`}
         >
             <div className="max-w-7xl mx-auto px-6 sm:px-10 h-20 flex items-center justify-between">
-                <Link
-                    to="/"
-                    data-testid="navbar-logo"
-                    className="flex items-center gap-2 group"
-                >
-                    <span className="w-9 h-9 rounded-full bg-brand-primary grid place-items-center text-white shadow-sm">
-                        <Leaf className="w-4 h-4" />
-                    </span>
-                    <span className="font-heading text-[22px] leading-none text-brand-ink">
-                        Butterfly <span className="text-brand-primary">Lawn</span>
-                    </span>
+                {/* --- LOGO REPLACED HERE --- */}
+                <Link to="/" data-testid="navbar-logo" className="flex items-center">
+                    <img
+                        src="/logo.png"
+                        alt="Butterfly Lawn Logo"
+                        className="h-20 w-auto object-contain"
+                    />
                 </Link>
+                {/* ------------------------- */}
 
                 <nav className="hidden lg:flex items-center gap-8">
                     {LINKS.map((l) => (

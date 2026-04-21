@@ -10,11 +10,12 @@ export default function Footer() {
         >
             <div className="max-w-7xl mx-auto px-6 sm:px-10 grid md:grid-cols-4 gap-12">
                 <div className="md:col-span-2">
-                    <div className="flex items-center gap-2 mb-5">
-                        <span className="w-10 h-10 rounded-full bg-brand-secondary grid place-items-center">
-                            <Leaf className="w-5 h-5 text-brand-ink" />
-                        </span>
-                        <span className="font-heading text-2xl text-white">Butterfly Lawn</span>
+                    <div className="mb-6">
+                        <img
+                            src="/logo.png"
+                            alt="Butterfly Lawn & Landscape Logo"
+                            className="h-28 w-auto object-contain p-2 rounded-lg"
+                        />
                     </div>
                     <p className="max-w-md text-white/70 leading-relaxed">
                         Gardening, landscaping & Kokedama from the heart of Navi Mumbai. Led by
