@@ -80,7 +80,7 @@ export default function Contact() {
                                     data-testid="contact-name-input"
                                     value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })}
                                     className="mt-2 w-full border border-brand-primary/20 rounded-2xl px-4 py-3 focus:ring-2 focus:ring-brand-primary/40 focus:outline-none"
-                                    placeholder="Neha Sharma" required
+                                    placeholder="Neha Padwal" required
                                 />
                             </div>
                             <div>

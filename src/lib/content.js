@@ -45,7 +45,7 @@ export const SERVICES = [
         short: "Keep your vertical gardens lush — long after installation day.",
         long: "Irrigation checks, plant replacement, nutrition cycles and troubleshooting for living walls.",
         image:
-            "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=1400&q=80",
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777018977/greenwall_ejwmmd.jpg",
         icon: "LayoutGrid",
         for: "Cafés, offices, retail, premium homes",
     },
@@ -74,18 +74,18 @@ export const KOKEDAMA = {
     main:
         "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxrb2tlZGFtYSUyMHBsYW50fGVufDB8fHx8MTc3Njc2NDQxNHww&ixlib=rb-4.1.0&q=85&w=1400",
     detail:
-        "https://images.unsplash.com/photo-1723650879990-dae890387cff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwxfHxrb2tlZGFtYSUyMHBsYW50fGVufDB8fHx8MTc3Njc2NDQxNHww&ixlib=rb-4.1.0&q=85&w=1400",
+        "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777018977/kokedama_wyk7n7.jpg",
 };
 
 export const GALLERY = [
     { cat: "Balcony Gardens", url: "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1200&q=80" },
     { cat: "Indoor Setups", url: "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1200&q=80" },
-    { cat: "Kokedama", url: "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&w=1200&q=80" },
-    { cat: "Green Walls", url: "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=1200&q=80" },
+    { cat: "Kokedama", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777019709/kokedama_1_xkqscw.png" },
+    { cat: "Green Walls", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777018977/greenwall_ejwmmd.jpg" },
     { cat: "Indoor Setups", url: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1200&q=80" },
     { cat: "Balcony Gardens", url: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80" },
     { cat: "Before / After", url: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80" },
-    { cat: "Kokedama", url: "https://images.unsplash.com/photo-1723650879990-dae890387cff?crop=entropy&cs=srgb&fm=jpg&w=1200&q=80" },
+    { cat: "Kokedama", url: "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxrb2tlZGFtYSUyMHBsYW50fGVufDB8fHx8MTc3Njc2NDQxNHww&ixlib=rb-4.1.0&q=85&w=1400" },
     { cat: "Indoor Setups", url: "https://images.pexels.com/photos/4505176/pexels-photo-4505176.jpeg?auto=compress&cs=tinysrgb&w=1200" },
 ];
 
@@ -133,17 +133,30 @@ export const TRUST = [
 export const PRODUCTS = [
     {
         name: "Signature Kokedama",
-        price: "From ₹799",
+        price: "From ₹299",
         tag: "Bestseller",
         image:
-            "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85",
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777019709/kokedama_1_xkqscw.png",
     },
     {
         name: "Hanging Kokedama Set",
         price: "From ₹2,199",
         tag: "Gift Ready",
         image:
-            "https://images.unsplash.com/photo-1723650879990-dae890387cff?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85",
+            "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85",
+    },
+
+    {
+        name: "Snake Plant",
+        price: "From ₹349",
+        image:
+            "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+    },
+    {
+        name: "Aglonema",
+        price: "From ₹349",
+        image:
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777020284/Aglonema_vroefi.png",
     },
     {
         name: "Monstera Deliciosa",
@@ -152,16 +165,10 @@ export const PRODUCTS = [
             "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1000&q=80",
     },
     {
-        name: "Snake Plant",
-        price: "From ₹349",
+        name: "chamaedorea elegans(palm)",
+        price: "From ₹199",
         image:
-            "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
-    },
-    {
-        name: "Ceramic Planter – Pebble",
-        price: "From ₹499",
-        image:
-            "https://images.unsplash.com/photo-1634886153044-17aff58eb865?crop=entropy&cs=srgb&fm=jpg&w=1000&q=85",
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777020433/chamaedorea_xaolbf.png",
     },
     {
         name: "Terracotta Pot Trio",

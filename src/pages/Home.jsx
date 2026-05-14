@@ -25,7 +25,7 @@ export default function Home() {
                         className="w-full h-full object-cover kenburns"
                         loading="eager"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/20 to-[#F9F8F6]" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-[#F9F8F6]" />
                 </div>
 
                 <motion.div
@@ -48,7 +48,7 @@ export default function Home() {
                         transition={{ delay: 0.1, duration: 0.8 }}
                         className="text-sm uppercase tracking-[0.25em] text-white/90 font-medium mb-5"
                     >
-                        Navi Mumbai · Since years of passion
+                        Thane, Navi Mumbai, Mumbai · Since years of passion
                     </motion.p>
                     <motion.h1
                         initial={{ opacity: 0, y: 18 }}
@@ -303,7 +303,7 @@ export default function Home() {
                 <Reveal>
                     <p className="text-sm uppercase tracking-[0.25em] font-semibold text-brand-secondary mb-4">Kind words</p>
                     <h2 className="font-heading text-4xl sm:text-5xl text-brand-ink max-w-2xl leading-tight">
-                        Loved by plant parents across Navi Mumbai.
+                        Loved by plant parents across Thane and Navi Mumbai.
                     </h2>
                 </Reveal>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
