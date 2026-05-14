@@ -79,12 +79,11 @@ export const KOKEDAMA = {
 
 export const GALLERY = [
     { cat: "Balcony Gardens", url: "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1200&q=80" },
-    { cat: "Indoor Setups", url: "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1200&q=80" },
+    { cat: "Indoor Setups", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1778769013/snakeplant_xvdxsl.png" },
     { cat: "Kokedama", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777019709/kokedama_1_xkqscw.png" },
     { cat: "Green Walls", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777018977/greenwall_ejwmmd.jpg" },
-    { cat: "Indoor Setups", url: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1200&q=80" },
     { cat: "Balcony Gardens", url: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1200&q=80" },
-    { cat: "Before / After", url: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1200&q=80" },
+    { cat: "Before / After", url: "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1778769283/before_after_aaa8zg.jpg" },
     { cat: "Kokedama", url: "https://images.unsplash.com/photo-1760863264489-b051feacddaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxrb2tlZGFtYSUyMHBsYW50fGVufDB8fHx8MTc3Njc2NDQxNHww&ixlib=rb-4.1.0&q=85&w=1400" },
     { cat: "Indoor Setups", url: "https://images.pexels.com/photos/4505176/pexels-photo-4505176.jpeg?auto=compress&cs=tinysrgb&w=1200" },
 ];
@@ -150,8 +149,9 @@ export const PRODUCTS = [
         name: "Snake Plant",
         price: "From ₹349",
         image:
-            "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1778769013/snakeplant_xvdxsl.png",
     },
+
     {
         name: "Aglonema",
         price: "From ₹349",
@@ -159,10 +159,10 @@ export const PRODUCTS = [
             "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1777020284/Aglonema_vroefi.png",
     },
     {
-        name: "Monstera Deliciosa",
+        name: "Cactus",
         price: "From ₹549",
         image:
-            "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?auto=format&fit=crop&w=1000&q=80",
+            "https://res.cloudinary.com/dvtaslagk/image/upload/q_auto/f_auto/v1778769745/cactus_zmlmu9.jpg",
     },
     {
         name: "chamaedorea elegans(palm)",

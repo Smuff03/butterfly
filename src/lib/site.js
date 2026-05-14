@@ -4,7 +4,7 @@ export const SITE = {
     shortName: "Butterfly Lawn & Landscape",
     owner: "Neha Padwal",
     credentials: "BSc Agriculture",
-    email: "neha12padwal@gmail.com",
+    email: "butter1214fly@gmail.com",
     // NOTE: placeholder phone — replace with real number before launch.
     phoneDisplay: "+91 99879 75991",
     phoneTel: "+919987975991",
